@@ -149,10 +149,97 @@ body {
 .box-shadow {
     box-shadow: 0 0 10px 2px rgba(0, 0, 0, .1);
 }
+.head-step {
+    transform: translateY(-21px);
+    background: #fff;
+}
+.head-step .nav-link {
+    border: navajowhite;
+    color: #495057;
+}
 
+.head-step .nav-link.active {
+    color: #fc7700;
+    border-bottom: 2px solid #fc7700;
+}
+.list-lesson {
+    padding: 0;
+}
 
+ul.list-lesson li {
+    margin-bottom: 6px;
+}
 
+.acc {
+    margin: 0 auto;
+    max-width: 800px;
+}
+.acc__card {
+    margin-bottom: 20px;
+    position: relative;
+}
+.acc__title {
+    background: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .2);
+    color: #212121;
+    cursor: pointer;
+    display: block;
+    padding: 1em 1.5em;
+    position: relative;
+    text-align: left;
+}
+.acc__title::after {
+    width: 8px;
+    height: 8px;
+    border-right: 1px solid #4a6e78;
+    border-bottom: 1px solid #4a6e78;
+    position: absolute;
+    right: 10px;
+    content: " ";
+    top: 24px;
+    transform: rotate(-45deg);
+    transition: all 0.2s ease-in-out;
+}
+.acc__title.active::after {
+    transform: rotate(45deg);
+    transition: all 0.2s ease-in-out;
+}
+.acc__panel {
+    background: #fff;
+    color: #212121;
+    display: none;
+    margin: 0;
+    padding: 12px;
+    text-align: left;
+}
+.line-through{
+    text-decoration: line-through;
+}
+.img-cart {
+    width: 150px;
+    overflow: hidden;
+}
 
+.img-cart img {
+    width: 100%;
+    height: auto;
+}
+.delete-cart button {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 !important;
+    top: 0;
+}
+
+.delete-cart {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.course-step {
+    min-height: 250px;
+}
 
 
 
