@@ -1,0 +1,166 @@
+.text-orange{
+    color: #fc7700;
+}
+.bg-orange{
+    background-color: #fc7700;
+}
+.main-logo {
+    width: 125px;
+}
+.main-logo img {
+    width: 100%;
+}
+.nav-item.active a{
+    color: #fc7700 !important;
+}
+nav.navbar {
+    box-shadow: 0 0 10px 2px rgba(0,0,0,.2);
+}
+.product-bottom img {
+    width: 14px;
+    filter: contrast(0.5);
+}
+.box-product .card-body {
+    padding: 10px;
+}
+.box-product .card {
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, .1);
+    border-radius: 6px;
+}
+.title-main {
+    border-bottom: 1px solid #aeaeae;
+    padding-bottom: 10px;
+}
+.box-student img {
+    width: 120px !important;
+}
+.bg-muted{
+    background-color: #f9f9f9;
+}
+.max-width-full{
+    max-width: 100% !important;
+}
+.list-footer {
+    list-style: none;
+    padding: 0;
+}
+
+.list-footer p {
+    margin: 2px;
+}
+
+.list-footer li {
+    margin-bottom: 14px;
+}
+
+.list-footer a {
+    color: #fff;
+}
+li.nav-item .nav-link {
+    font-weight: 600;
+}
+li.nav-item .nav-link {
+    font-weight: 600;
+}
+
+li.nav-item.active:after {content: '';position: absolute;width: 20px;height: 20px;background: #f8f9fa;left: 50%;transform: translate(-50%) rotate(45deg);border-radius: 6px;bottom: -25px;}
+
+li.nav-item {
+    position: relative;
+}
+.box-new  img {
+    width: 100px;
+    height: 75px;
+}
+.box-product a:hover {
+    text-decoration: none !important;
+}
+.no-hover__decoration:hover{
+    text-decoration: none !important;
+}
+.no-box-shadow{
+    box-shadow: none !important;
+}
+.no-radius{
+    border-radius: 0 !important;
+}
+.no-border{
+    border: none;
+}
+.img-custom__height--news{
+    height: 255px;
+    overflow: hidden;
+}
+.box-course__new .img{
+    height: 120px;
+    overflow: hidden;
+}
+.box-course__new .img img{
+    width: 100%;
+    height: auto;
+}
+.box-course__new .card {
+    height: 205px;
+}
+
+.box-course__new--one .card{
+    height: 417px;
+}
+.card-horizontal {
+    display: flex;
+}
+
+.card-horizontal img {
+    width: 280px;
+    height: auto;
+}
+
+.card-horizontal {
+    margin-bottom: 20px;
+    background: #fff;
+    border-radius: 6px;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, .1);
+}
+.card-horizontal .card-body {
+    padding: 15px;
+}
+
+body {
+    background: #f9f9f9;
+}
+.img-custom__height--news img {
+    width: 100%;
+    height: auto;
+}
+.side-right .title-main h5 {
+    font-size: 16px;
+}
+.breadcrumb-item a {
+    color: rgba(0,0,0,.5);
+}
+
+.breadcrumb-item.active {
+    color: #fc7700;
+}
+.radius {
+    border-radius: 6px;
+}
+
+.box-shadow {
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, .1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
