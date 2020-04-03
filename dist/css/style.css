@@ -281,6 +281,49 @@ ul.list-lesson li {
     z-index: 99999;
 }
 
+.profile-pic {
+    max-width: 200px;
+    max-height: 200px;
+    display: block;
+}
+
+.file-upload {
+    display: none;
+}
+.circle {
+    border-radius: 1000px !important;
+    overflow: hidden;
+    width: 128px;
+    height: 128px;
+    border: 8px solid rgba(255, 255, 255, 0.7);
+    position: absolute;
+    top: 24px;
+}
+.img-p {
+    height: auto;
+}
+.p-image {
+    position: absolute;
+    left: 40%;
+    bottom: 0;
+    color: #ffffff;
+    transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
+    box-shadow: 0 11px 12px rgba(255, 255, 255, 0.61);
+}
+.p-profile-img .circle {
+    position: relative;
+}
+.p-image:hover {
+    transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
+}
+.upload-button {
+    font-size: 1.2em;
+}
+
+.upload-button:hover {
+    transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
+    color: #999;
+}
 
 
 
