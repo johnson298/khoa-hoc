@@ -167,7 +167,16 @@ body {
 }
 
 ul.list-lesson li {
-    margin-bottom: 6px;
+    margin-bottom: 0;
+    padding: 11px 5px;
+    cursor: pointer;
+}
+
+ul.list-lesson li:hover, ul.list-lesson li.active {
+    background-color: rgba(71,74,88,.078431372549);
+}
+ul.list-lesson li.active .far.fa-play-circle {
+    color: #28a745;
 }
 
 .acc {
@@ -325,6 +334,54 @@ ul.list-lesson li {
     color: #999;
 }
 
+.accordion-container{
+    position: relative;
+    max-width: 500px;
+    height: auto;
+    margin: 10px auto;
+}
+.accordion-container > h4{
+    margin-bottom: 14px;
+    text-align: center;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+}
+.set{
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: #f5f5f5;
+}
+.set > a{
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #555;
+    font-weight: 600;
+    border-bottom: 1px solid #ddd;
+    -webkit-transition:all 0.2s linear;
+    -moz-transition:all 0.2s linear;
+    transition:all 0.2s linear;
+}
+.set > a i{
+    float: right;
+    margin-top: 2px;
+}
+.set > a.active{
+    background-color: #fc7700;
+    color: #fff;
+}
+.set .content{
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    display:none;
+    padding: 0;
+}
+.set .content p{
+    padding: 10px 15px;
+    margin: 0;
+    color: #333;
+}
 
 
 
